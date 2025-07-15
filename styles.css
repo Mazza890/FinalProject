@@ -1,0 +1,69 @@
+/* styles.css: Applies design for the Cape Town website */
+
+/* Page background and text */
+body {
+  font-family: Arial, sans-serif;
+  background-color: rgb(242, 242, 242);  /* light gray */
+  color: rgb(51, 51, 51);                /* dark gray */
+  margin: 0;
+  padding: 0;
+}
+
+/* Header section */
+header {
+  background-color: rgb(0, 102, 204);    /* blue */
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Navigation menu */
+nav ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+nav ul li {
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav ul li a:visited {
+  color: rgb(204, 204, 255);             /* light blue for visited */
+}
+
+/* Main content section */
+main {
+  padding: 20px;
+  text-align: center;
+  background-color: rgb(255, 255, 255);  /* white */
+}
+
+/* Image formatting */
+img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+/* Photo source citation */
+.citation {
+  font-size: 0.8em;
+  color: rgb(102, 102, 102);
+  font-style: italic;
+}
+
+/* Footer section */
+footer {
+  background-color: rgb(0, 102, 204);
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
